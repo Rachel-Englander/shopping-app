@@ -30,7 +30,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: react-build
-          path: react-order-client/build  # 👈 the React build output
+          path: react-order-client/dist  # 👈 the React build output
 
   deploy:
     runs-on: ubuntu-latest
