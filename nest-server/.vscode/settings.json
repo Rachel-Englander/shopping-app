@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/499257a9-3d84-4da2-b0b6-8c6e770fafb0/resourceGroups/shop/providers/Microsoft.Web/sites/nestshop",
+    "appService.deploySubpath": "."
+}
